@@ -20,7 +20,7 @@
                 
                 <div>
                     this exact word or phrase: <input id="exact" type="text">
-                <input type="hidden" id="h-exact" name="q" value=""> 
+                    <input type="hidden" id="h-exact" name="q" value=""> 
                 </div>
                 <div>
                     any of these words<input type="any" name="q">
@@ -30,20 +30,21 @@
                 </div>
             <br><br>
             <div class="btn-submit">
-                <input id="b" type="submit" value="Google Search">
+                    <input id="b" type="submit" value="Google Search">
             </div>
 
         </form>
         </div>
         <script>
-                        window.onload=function(){
+                window.onload=function(){
                         document.getElementById("b").onclick =
                         function(){
                         document.getElementById("h-exact").value ='"'
                         +document.getElementById("exact").value
                         +'"';
                                 }
-                        }
+                            }
+                        
         </script>
     </body>
 </html>

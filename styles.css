@@ -13,6 +13,24 @@ h1 {
     text-align: left;
 }
 
+div.adv-container {
+    width: 100%;
+    clear: both;
+}
+
+.adv-input-div {
+    padding-right: 16px;
+}
+
+.adv-text-input {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
 .btn-submit {
     text-align: center;
 }

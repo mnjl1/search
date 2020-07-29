@@ -14,19 +14,17 @@
         <div class="adv-search-form">
             <form action="https://google.com/search">
                 <div>
-                    all these words: <input type="in-all" name="q">
-                    <input type="hidden" id="all" value="">
+                    all these words: <input type="in-all" name="as_q">
                 </div>
                 
                 <div>
-                    this exact word or phrase: <input id="exact" type="text">
-                    <input type="hidden" id="h-exact" name="q" value=""> 
+                    this exact word or phrase: <input id="exact" type="text" name="as_epq">
                 </div>
                 <div>
-                    any of these words<input type="any" name="q">
+                    any of these words<input type="any" name="as_oq">
                 </div>
                 <div>
-                    none of these wordse<input type="text" name="q">
+                    none of these wordse<input type="text" name="as_eq">
                 </div>
             <br><br>
             <div class="btn-submit">
@@ -35,16 +33,6 @@
 
         </form>
         </div>
-        <script>
-                window.onload=function(){
-                        document.getElementById("b").onclick =
-                        function(){
-                        document.getElementById("h-exact").value ='"'
-                        +document.getElementById("exact").value
-                        +'"';
-                                }
-                            }
-                        
-        </script>
+       
     </body>
 </html>

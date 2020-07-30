@@ -13,11 +13,6 @@ h1 {
     text-align: left;
 }
 
-div.adv-container {
-    width: 100%;
-    clear: both;
-}
-
 .adv-input-div {
     padding-right: 16px;
 }
@@ -29,10 +24,21 @@ div.adv-container {
     font-size: 13px;
     height: 25px;
     padding: 1px 8px;
+    width: 600px;
+   align-items: center;
 }
 
 .btn-submit {
     text-align: center;
+}
+
+.adv-btn-submit {
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
 }
 
 .search-links {

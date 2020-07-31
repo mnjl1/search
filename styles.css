@@ -1,3 +1,7 @@
+body {
+    font-family: arial,sans-serif;
+}
+
 h1 {
     margin-top: 130px;
     font-size: 80px;
@@ -9,36 +13,18 @@ h1 {
     text-align: center;
 }
 
-.adv-search-form {
-    text-align: left;
-}
-
-.adv-input-div {
-    padding-right: 16px;
-}
-
-.adv-text-input {
-    border-radius: 1px;
-    border: 1px solid #d9d9d9;
-    border-top: 1px solid #c0c0c0;
-    font-size: 13px;
-    height: 25px;
-    padding: 1px 8px;
-    width: 600px;
-   align-items: center;
-}
 
 .btn-submit {
     text-align: center;
 }
 
 .adv-btn-submit {
-    border-radius: 2px;
-    cursor: default;
-    font-size: 11px;
-    font-weight: bold;
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
     text-align: center;
-    white-space: nowrap;
+    
 }
 
 .search-links {

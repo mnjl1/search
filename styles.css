@@ -13,18 +13,24 @@ h1 {
     text-align: center;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 13% 40%;
+    row-gap: 10px;
+    text-align: left;
+
+}
+
 
 .btn-submit {
     text-align: center;
 }
 
 .adv-btn-submit {
-    box-shadow: none;
-    background-color: #4d90fe;
-    border: 1px solid #3079ed;
-    color: #fff;
     text-align: center;
-    
+    background-color: blue;
+    color: white;
+      
 }
 
 .search-links {
